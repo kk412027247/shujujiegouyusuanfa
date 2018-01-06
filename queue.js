@@ -48,6 +48,7 @@ const Queue = (function(){
   return Queue;
 })();
 
+module.exports = Queue;
 
 const queue = new Queue();
 queue.enqueue(`John`);
@@ -109,6 +110,6 @@ function hotPotato(nameList, num){
   return queue.dequeue()
 }
 
-const names = ['John','Jack','Camila','Ingrid','Carl'];
-const winner = hotPotato(names,3);
-console.log('winner: ',winner);
+// const names = ['John','Jack','Camila','Ingrid','Carl'];
+// const winner = hotPotato(names,3);
+//console.log('winner: ',winner);
